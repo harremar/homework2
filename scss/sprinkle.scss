@@ -3,6 +3,7 @@
   min-height: 800px;
   // background-color: darkkhaki;
 
+  //THIS IS THE HERO IMAGE OF THE DOUGHNUTS
   &__doughnutline {
     width: 100%;
     min-height: 300px;
@@ -12,6 +13,7 @@
     background-repeat: no-repeat;
   }
 
+  //THIS IS THE TITLE OF THE MAIN PAGE
   &__title {
     // background-color: darkorange;
     width: 100%;
@@ -34,6 +36,7 @@
       text-align: center;
     }
   }
+  //THIS IS THE SECTION WITH DOUGHNUT, RUNNER, AND COFFEE CUP
   &__rewards-holder {
     max-width: 100%;
     min-height: 400px;
@@ -72,6 +75,7 @@
         }
       }
 
+      //THESE ARE THE IMAGES FOR THAT SECTION
       &__doughnut {
         width: 150px;
         height: 150px;
@@ -102,6 +106,7 @@
     }
   }
 
+  //LOGIN AND SIGNUP PART OF THE MAIN PAGE
   &__login {
     width: 100%;
     min-height: 200px;
@@ -159,6 +164,7 @@
     }
   }
 
+  //SECTION WITH TWO DOUGHNTS AND TEXT
   &__treats {
     width: 100%;
     min-height: 400px;
@@ -210,6 +216,7 @@
       }
     }
 
+    //IMAGES OF THE DOUGHNUTS
     &__image {
       width: 500px;
       height: 400px;

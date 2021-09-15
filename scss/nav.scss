@@ -2,6 +2,7 @@ nav {
   max-width: 100%;
   min-height: 200px;
 
+  //THIS IS THE LOGIN AND SIGN UP STYLE.
   .login {
     width: 100%;
     min-height: 100px;
@@ -9,6 +10,7 @@ nav {
     display: flex;
     padding: 20px;
 
+    //SIGN IN
     &__btn1 {
       width: 120px;
       height: 50px;
@@ -35,6 +37,7 @@ nav {
         color: $site-white;
       }
     }
+    //SIGN UP
     &__btn2 {
       width: 120px;
       height: 50px;
@@ -64,6 +67,7 @@ nav {
     align-items: center;
     justify-content: space-evenly;
 
+    //THIS IS THE SPRINKLE BUTTON
     &__mainbtn {
       font-family: dosisB;
       font-size: 36px;
@@ -75,6 +79,7 @@ nav {
     &__mainbtn:hover {
       font-size: 40px;
     }
+    //THIS IS ALL THE OTHER BUTTONS
     &__subbtn {
       font-family: dosisR;
       font-size: 18px;
