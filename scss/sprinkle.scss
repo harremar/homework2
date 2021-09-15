@@ -1,0 +1,251 @@
+.sprinkle {
+  width: 100%;
+  min-height: 800px;
+  // background-color: darkkhaki;
+
+  &__doughnutline {
+    width: 100%;
+    min-height: 300px;
+    background-image: url(../images/doughnutline.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &__title {
+    // background-color: darkorange;
+    width: 100%;
+    min-height: 220px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    // display: flex;
+
+    h1 {
+      font-family: dosisB;
+      color: $site-orange;
+      font-size: 60px;
+      text-align: center;
+    }
+    h2 {
+      font-family: dosisB;
+      color: $site-lightorange;
+      font-size: 30px;
+      text-align: center;
+    }
+  }
+  &__rewards-holder {
+    max-width: 100%;
+    min-height: 400px;
+    background-color: $site-peach;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    &__rewards {
+      width: 300px;
+      min-height: 400px;
+      // background-color: darkred;
+      padding-top: 50px;
+
+      &__text {
+        // background-color: aqua;
+        max-width: 300px;
+        min-height: 200px;
+        margin-top: 10px;
+        padding: 10px;
+        text-align: center;
+
+        h1 {
+          font-family: dosisB;
+          color: $site-white;
+          font-size: 24px;
+          transition: all 1s, ease 0.5s;
+        }
+        h1:hover {
+          color: $site-orange;
+        }
+        p {
+          font-family: dosisR;
+          color: $site-white;
+          font-size: 18px;
+        }
+      }
+
+      &__doughnut {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+        background-image: url(../images/doughnut.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      &__coffee {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+        background-image: url(../images/coffeesprinkle.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      &__runner {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+        background-image: url(../images/runner.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+  }
+
+  &__login {
+    width: 100%;
+    min-height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    // background-color: darkgoldenrod;
+
+    &__btn1 {
+      width: 120px;
+      height: 50px;
+      border-radius: 50px;
+      margin-right: 10px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      border: $site-orange 2px solid;
+      transition: all 1s, ease 0.5s;
+
+      a {
+        text-decoration: none;
+        color: $site-orange;
+        font-family: dosisR;
+        font-size: 18px;
+        transition: all 1s, ease 0.5s;
+      }
+    }
+    &__btn1:hover {
+      background-color: $site-orange;
+
+      a:hover {
+        color: $site-white;
+      }
+    }
+    &__btn2 {
+      width: 120px;
+      height: 50px;
+      border-radius: 50px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      background-color: $site-orange;
+      transition: all 1s, ease 0.5s;
+      a {
+        text-decoration: none;
+        color: $site-white;
+        font-family: dosisR;
+        font-size: 18px;
+        transition: all 1s, ease 0.5s;
+      }
+      a:hover {
+        font-size: 20px;
+      }
+    }
+  }
+
+  &__treats {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    // background-color: aqua;
+
+    &__text {
+      text-align: center;
+      margin-top: 50px;
+      max-width: 400px;
+      min-height: 400px;
+      h1 {
+        font-family: dosisB;
+        font-size: 40px;
+        color: $site-orange;
+      }
+      p {
+        font-family: dosisR;
+        font-size: 20px;
+        color: $site-black;
+      }
+      &__btn {
+        width: 200px;
+        height: 50px;
+        margin: 0 auto;
+        border-radius: 50px;
+        background-color: $site-peach;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        transition: all 1s, ease 0.5s;
+
+        p {
+          padding-top: 10px;
+          font-family: dosisR;
+          font-size: 18px;
+          color: $site-white;
+          transition: all 1s, ease 0.5s;
+        }
+        p:hover {
+          font-size: 20px;
+        }
+      }
+      &__btn:hover {
+        background-color: $site-orange;
+      }
+    }
+
+    &__image {
+      width: 500px;
+      height: 400px;
+      background-image: url(../images/orangedoughnut.jpeg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &__image2 {
+      width: 500px;
+      height: 400px;
+      background-image: url(../images/chocdoughnut.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .sprinkle__rewards-holder {
+    flex-direction: column;
+    min-height: 100vh;
+    // background-color: aqua;
+
+    &__rewards {
+      max-width: 500px;
+      margin: 20px auto;
+    }
+  }
+  .sprinkle__treats {
+    flex-direction: column;
+    min-height: 100vh;
+    // background-color: aqua;
+    &__image2 {
+      margin-bottom: 100px;
+    }
+  }
+}

@@ -1,0 +1,89 @@
+nav {
+  max-width: 100%;
+  min-height: 200px;
+
+  .login {
+    width: 100%;
+    min-height: 100px;
+    justify-content: right;
+    display: flex;
+    padding: 20px;
+
+    &__btn1 {
+      width: 120px;
+      height: 50px;
+      border-radius: 50px;
+      margin-right: 10px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      border: $site-orange 2px solid;
+      transition: all 1s, ease 0.5s;
+
+      a {
+        text-decoration: none;
+        color: $site-orange;
+        font-family: dosisR;
+        font-size: 18px;
+        transition: all 1s, ease 0.5s;
+      }
+    }
+    &__btn1:hover {
+      background-color: $site-orange;
+
+      a:hover {
+        color: $site-white;
+      }
+    }
+    &__btn2 {
+      width: 120px;
+      height: 50px;
+      border-radius: 50px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      background-color: $site-orange;
+      transition: all 1s, ease 0.5s;
+      a {
+        text-decoration: none;
+        color: $site-white;
+        font-family: dosisR;
+        font-size: 18px;
+        transition: all 1s, ease 0.5s;
+      }
+      a:hover {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .navbtn {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    &__mainbtn {
+      font-family: dosisB;
+      font-size: 36px;
+      text-decoration: none;
+      color: $site-orange;
+      transition: all 1s, ease 0.5s;
+      // background-color: coral;
+    }
+    &__mainbtn:hover {
+      font-size: 40px;
+    }
+    &__subbtn {
+      font-family: dosisR;
+      font-size: 18px;
+      text-decoration: none;
+      color: $site-black;
+      transition: all 1s, ease 0.5s;
+    }
+    &__subbtn:hover {
+      color: $site-lightorange;
+    }
+  }
+}

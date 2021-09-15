@@ -1,0 +1,120 @@
+<!-- //Model collects data and brings to data file. Holds logic and functions -->
+<!-- //View shows the data to the user. View is the HTML Page -->
+<!-- //Controller response to user input -->
+<!-- https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller. JUST IN CASE YOU NEED A REFRESHER AND PICTURE OF MVC -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 2</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <div class="login">
+            <div class="login__btn1">
+                <a href="#">sign in</a>
+            </div>
+            <div class="login__btn2">
+                <a href="#">sign up</a>
+            </div>
+        </div>
+        <div class="navbtn">
+            <a class="navbtn__subbtn" id="history" href="#">Our History</a>
+            <a class="navbtn__subbtn" id="menu" href="#">Menu</a>
+            <a class="navbtn__mainbtn" id= "sprinkle" href="#">SPRINKLE</a>
+            <a class="navbtn__subbtn" id="locations" href="#">Locations</a>
+            <a class="navbtn__subbtn"  id="contact" href="#">Contact Us</a>
+        </div>
+    </nav>
+    
+    
+
+
+
+    <div id="content">
+        <div class="sprinkle">
+            <div class="sprinkle__doughnutline"></div>
+        
+            <div class="sprinkle__title"> 
+                <h1>SPRINKLE</h1>
+                <h2>YOUR WAY</h2>
+            </div>
+        
+            <div class="sprinkle__rewards-holder">
+                <div class="sprinkle__rewards-holder__rewards">
+                    <div class="sprinkle__rewards-holder__rewards__doughnut"></div>
+                    <div class="sprinkle__rewards-holder__rewards__text">
+                        <h1>Get Some Dough</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, enim? Reiciendis fugiat eius excepturi itaque.</p>
+                    </div>
+                </div>
+        
+                <div class="sprinkle__rewards-holder__rewards">
+                    <div class="sprinkle__rewards-holder__rewards__coffee"></div>
+                    <div class="sprinkle__rewards-holder__rewards__text">
+                        <h1>Enjoy Hot or Cold</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae aspernatur laborum quos doloribus eaque ab.</p>
+                    </div>
+                </div>
+        
+                <div class="sprinkle__rewards-holder__rewards">
+                    <div class="sprinkle__rewards-holder__rewards__runner"></div>
+                    <div class="sprinkle__rewards-holder__rewards__text">
+                        <h1>Learn the Fast Way</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi sunt magnam, molestias magni mollitia ex!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sprinkle__login">
+                <div class="sprinkle__login__btn1">
+                    <a href="#">sign in</a>
+                </div>
+                <div class="sprinkle__login__btn2">
+                    <a href="#">sign up</a>
+                </div>
+            </div>
+            <div class="sprinkle__treats">
+                <div class="sprinkle__treats__image"></div>
+                <div class="sprinkle__treats__text">
+                    <h1>New Treats</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quasi, dolorum cum soluta quam minus et totam obcaecati quidem nemo ducimus adipisci voluptatem harum ipsum.</p>
+                    <div class="sprinkle__treats__text__btn">
+                        <p>treats</p>
+                    </div>
+                </div>
+                <div class="sprinkle__treats__image2"></div>
+        
+            </div>
+        
+        </div>        
+    </div>
+    
+    
+
+    <footer>
+            <div class="social">
+                <h2>Follow Us:</h2>
+                <div class="socialholder">
+                    <div class="socialholder__instagram"></div>
+                    <div class="socialholder__facebook"></div>
+                    <div class="socialholder__twitter"></div>
+                </div>
+            </div>
+            <div class="address">
+                <p>500 E. Doughnut Avenue,</p>
+                <p>Greenwood, IN 46143</p>
+            </div>
+            <div class="logo"></div>
+        
+    </footer>
+
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <script src="app/model.js"></script>
+    <script src="app/app.js"></script>
+    
+</body>
+</html>
