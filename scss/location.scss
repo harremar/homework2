@@ -1,6 +1,7 @@
 .location {
-  width: 100%;
+  max-width: 100%;
   min-height: 800px;
+  padding: 20px;
   //   background-color: aquamarine;
 
   //TITLE OF LOCATION PAGE
@@ -26,7 +27,7 @@
   //INPUT AND SEARCH BUTTON STYLE
   &__search {
     margin: 0 auto;
-    width: 500px;
+    max-width: 500px;
     min-height: 100px;
     // background-color: antiquewhite;
     display: flex;
@@ -134,5 +135,19 @@
         font-size: 18px;
       }
     }
+  }
+}
+@media only screen and (max-width: 800px) {
+  .location__search {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    &__input {
+      padding-bottom: 20px;
+    }
+  }
+  .location__map {
+    max-width: 300px;
+    min-height: 300px;
   }
 }

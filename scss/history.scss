@@ -1,11 +1,11 @@
 .history {
-  width: 100%;
+  max-width: 100%;
   min-height: 600px;
   //   background-color: blue;
 
   //IMAGE OF THREE COFFEE CUPS
   &__image {
-    width: 100%;
+    max-width: 100%;
     height: 330px;
     background-image: url(../images/threecups.jpeg);
     background-position: center;
@@ -15,7 +15,7 @@
 
   //IMAGE OF CHEF MAKING DOUGHNUTS
   &__image2 {
-    width: 100%;
+    max-width: 100%;
     height: 500px;
     background-image: url(../images/chef.jpeg);
     background-position: center;
@@ -24,7 +24,7 @@
   }
 
   &__title {
-    width: 100%;
+    max-width: 100%;
     min-height: 150px;
     // background-color: royalblue;
     display: flex;
@@ -39,7 +39,7 @@
   }
   //PARAGRAPHS FOR THIS PAGE
   &__text-holder {
-    width: 100%;
+    max-width: 100%;
     min-height: 300px;
     // background-color: rebeccapurple;
     display: flex;
@@ -47,7 +47,7 @@
     justify-content: space-evenly;
 
     &__left {
-      width: 500px;
+      max-width: 500px;
       min-height: 100px;
       //   background-color: aqua;
       padding-right: 30px;
@@ -57,7 +57,7 @@
     &__right {
       padding-right: 30px;
       padding-left: 30px;
-      width: 500px;
+      max-width: 500px;
       min-height: 100px;
       //   background-color: aqua;
     }
